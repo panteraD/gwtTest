@@ -20,8 +20,24 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>2.10.1</version>
+                <configuration>
+                    <!-- configuration elements goes here -->
+                   <!-- <bundeDir>C:\Program Files\Java\glassfish4\glassfish\domains\domain2\autodeploy</bundeDir> -->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-user</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+    </dependencies>
 
 
 

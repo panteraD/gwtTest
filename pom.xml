@@ -8,7 +8,7 @@
     <artifactId>gwtTest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <url>http://example.com</url> <!--what this tag does? -->
-    <packaging>war</packaging> <!-- output is ear file; pom for packaging multiple  -->
+    <!--<packaging>war</packaging> --> <!-- output is ear file; pom for packaging multiple  -->
 
     <properties>
         <gwtVersion>2.7.0</gwtVersion>

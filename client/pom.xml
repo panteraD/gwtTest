@@ -6,11 +6,13 @@
     <groupId>com.chernenkov.gwtTest</groupId>
     <artifactId>client</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>client</name>
 
     <packaging>war</packaging>
 
     <properties>
         <gwtVersion>2.7.0</gwtVersion>
+
     </properties>
 
 
@@ -24,8 +26,7 @@
                 <version>${gwtVersion}</version>
                 <configuration>
                     <module>com.chernenkov.gwttest.MySampleApplication</module>
-                    <source>1.8</source>
-                    <target>1.8</target>
+
                 </configuration>
 
                 <executions>
@@ -55,7 +56,7 @@
                 <version>2.3</version>
                 <configuration>
                     <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
-                    <outputDirectory>C:\Program Files\Java\glassfish4\glassfish\domains\domain2\autodeploy</outputDirectory>
+                    <!--outputDirectory>C:\Program Files\Java\glassfish4\glassfish\domains\domain2\autodeploy</outputDirectory-->
                 </configuration>
             </plugin>
 

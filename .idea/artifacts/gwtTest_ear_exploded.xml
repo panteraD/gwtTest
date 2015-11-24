@@ -6,9 +6,12 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/gwtTest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="library" level="project" name="Maven: com.google.gwt:gwt-user:2.7.0" />
-      <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
-      <element id="library" level="project" name="Maven: javax.validation:validation-api:sources:1.0.0.GA" />
+      <element id="archive" name="client-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="client:war exploded" />
+      </element>
+      <element id="archive" name="server-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="server:war exploded" />
+      </element>
     </root>
   </artifact>
 </component>

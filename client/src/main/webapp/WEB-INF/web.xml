@@ -5,7 +5,5 @@
 
 <web-app>
 
-    <welcome-file-list>
-        <welcome-file>MySampleApplication.html</welcome-file>
-    </welcome-file-list>
+
 </web-app>
